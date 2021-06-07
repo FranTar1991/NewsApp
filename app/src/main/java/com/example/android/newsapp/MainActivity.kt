@@ -8,5 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println("this is a test")
+       println("this is another test")
+    }
+    fun getText(): String {
+        return "test"
     }
 }
