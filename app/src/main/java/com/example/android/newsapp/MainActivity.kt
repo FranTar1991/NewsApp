@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println("this is a test")
-        println("comment on new now")
+        println("comment on new master")
     }
 
     fun stash()=1
